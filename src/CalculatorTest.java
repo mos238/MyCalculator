@@ -8,7 +8,7 @@ class CalculatorTest {
         //arrange test
         var calculator = new Calculator();
         //asset
-        assertEquals(10, calculator.add(6,6));// give a test to your assumption
+        assertEquals(10, calculator.add(4,6));// give a test to your assumption
     }
 
     @Test
@@ -19,11 +19,11 @@ class CalculatorTest {
         assertEquals(10, calculator.sub(15,5));
     }
     @Test
-    void tentimesFiveEqualsFifty(){
+    void atimesbEqualsc(){
         //arrange test
         var calculator = new Calculator();
         //asset
-        assertEquals(50, calculator.mult(10,5));
+        assertEquals(40, calculator.mult(8,5));
     }
 
 }
